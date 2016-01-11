@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost","johnjink_name","coolio15", "johnjink_db");
+$conn = new mysqli();
 		//gets the username and password that has been send to this php file
 	$username = $_POST['user'];
 	$friend = $_POST['friend'];
