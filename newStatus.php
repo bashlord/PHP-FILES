@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("localhost","johnjink_name","coolio15", "johnjink_db");
+$conn = new mysqli();
 
 	$username = $_POST['username'];
 	$title = $_POST['title'];
